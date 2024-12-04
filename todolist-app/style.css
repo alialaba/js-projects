@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    /* display: flex; */
+}
+.todo__form{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 2rem;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px 24px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+li{
+    list-style: none;
+}
+
+
+
+.todo__app{
+   margin: 4rem auto;
+   width: min(500px, 90%);
+   background-color: red;
+   padding: 2rem;
+}
+.todo__item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.todo__item{
+    text-align: left;
+}
+.todo__content{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.todo__actions{
+    display: flex;
+    gap: 5px;
+}
+.todo__title{
+    margin-bottom: 1em;
+}
+
+.todo__btn{
+    background: #fff;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.completed p{
+    text-decoration: line-through;
+    color: blue;
+}
